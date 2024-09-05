@@ -1,0 +1,184 @@
+body {
+    background-color: teal;
+    color: wheat;
+    user-select: none;
+}
+h1 {
+    font-size: 5vw;
+}
+.center {
+    text-align: center;
+}
+h2 {
+    font-size: 3vw;
+    margin-bottom: 0;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 0;
+}
+h2:hover{
+    color: lightpink;
+}
+h3 {
+    font-size: 1vw;
+    margin-bottom: 0;
+    cursor: pointer;
+    user-select: none;
+}
+h3:hover {
+    color: lightpink;
+}
+#copytimebtn {
+    width: 9vw;
+    height: 1vw;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    background-color: wheat;
+    font-weight: 400;
+    font-size: 0.7vw;
+}
+#copytimebtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+    font-size: 0.7vw;
+}
+#copydatebtn {
+    width: 4vw;
+    height: 1vw;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    background-color: wheat;
+    font-weight: 400;
+    font-size: 0.6vw;
+}
+#copydatebtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+    font-size: 0.57vw;
+}
+#naversrchbtn {
+    background: none;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+#naversrchform {
+    margin-top: 1vw;
+}
+#naversrchinpt {
+    border-radius: 1.5vw;
+    border: 0.2vw solid #15EF73;
+    background-color: wheat;
+}
+#youtubesrchbtn {
+    background: none;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+#youtubesrchform {
+    margin-top: 1vw;
+}
+#youtubesrchinpt {
+    border-radius: 1.5vw;
+    border: 0.2vw solid #FF0000;
+    background-color: wheat;
+}
+#stopwatch {
+    font-size: 2vw;
+    font-family: 'bahnschrift';
+    cursor: pointer;
+    text-align: center;
+}
+#stopwatchstartbtn {
+    border: none;
+    border-radius: 0.1vw;
+    cursor: pointer;
+    background-color: wheat;
+    width: 100%;
+}
+#stopwatchstopbtn {
+    border: none;
+    border-radius: 0.1vw;
+    cursor: pointer;
+    background-color: wheat; 
+}
+#stopwatchstartbtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+}
+#stopwatchstopbtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+}
+#stopwatchendbtn {
+    border: none;
+    border-radius: 0.1vw;
+    cursor: pointer;
+    background-color: wheat; 
+}
+#stopwatchendbtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+}
+#watchtogglebtn{
+    border-radius: 0.1vw;
+    cursor: pointer;
+    background-color: wheat;
+    border: none;
+    width: 100%;
+}
+#watchtogglebtn:hover{
+    background-color: cadetblue;
+    border:0.1vw solid wheat;
+    color: wheat;
+}
+.timersetinput{
+    background-color: teal;
+    color: wheat;
+    font-family: 'bahnschrift';
+    border: 0.1vw solid wheat;
+    width: 1.3vw;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 1vw;
+}
+.timersetinput::-webkit-outer-spin-button,
+.timersetinput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#toolboxbtn{
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    background-color: wheat;
+}
+#toolboxbtn:hover{
+    background-color: cadetblue;
+    border:10% solid wheat;
+    color: wheat;
+}
+.toolbtn{
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    background-color: wheat;
+}
+.toolbtn:hover{
+    background-color: cadetblue;
+    border:10% solid wheat;
+    color: wheat;
+}
