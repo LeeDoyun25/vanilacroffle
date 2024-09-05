@@ -182,9 +182,6 @@ function updateTimerTime(){
         stopwatchtime=Number(timermininput.value)*60+Number(timersecinput.value);
     };
 };
-function goSeatmaker(){
-    location.href='https://seatmaker.netlify.app/';
-};
 displayCurrentTime();
 setInterval(displayCurrentTime,500);
 copytimebtn.addEventListener('click',copytime);
@@ -200,7 +197,6 @@ stopwatchendbtn.addEventListener('click',endStopwatch);
 watchtogglebtn.addEventListener('click',switchstopwatchtimer);
 timermininput.addEventListener('change',updateTimerTime);
 timersecinput.addEventListener('change',updateTimerTime);
-seatmakerbtn.addEventListener('click',goSeatmaker);
 stopwatchstopbtn.style.display='none';
 stopwatchendbtn.style.display='none';
 timerinputdiv.style.display='none';
