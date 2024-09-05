@@ -110,7 +110,7 @@ function stopStopwatch(){
             stopwatchstopbtn.style.width=stopwatch.offsetWidth/2+'px';
             stopwatch.style.color='lightpink';
         };
-    }else{
+    }else {
         if (stopwatchRunning){
             clearInterval(stopwatchinterval);
             stopwatchRunning=false;
