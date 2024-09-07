@@ -52,47 +52,73 @@ h3:hover {
     cursor: pointer;
     background-color: wheat;
     font-weight: 400;
-    font-size: 0.6vw;
+    font-size: 0.57vw;
 }
 #copydatebtn:hover{
     background-color: cadetblue;
     border:0.1vw solid wheat;
     color: wheat;
-    font-size: 0.57vw;
+    font-size: 0.55vw;
 }
 #naversrchbtn {
     background: none;
     border: none;
     border-radius: 0.2vw;
     cursor: pointer;
+    font-size: 1.8vw;
+    color: wheat;
+}
+#naversrchbtn:hover{
+    color: lightpink;
 }
 #naversrchform {
     margin-top: 1vw;
 }
 #naversrchinpt {
     border-radius: 1.5vw;
-    border: 0.2vw solid #15EF73;
+    border: 0.15vw solid #15EF73;
     background-color: wheat;
+    outline: none;
+}
+#naversrchinpt:hover {
+    border: 0.15vw solid wheat;
+    background-color: cadetblue;
+    color: wheat;
 }
 #youtubesrchbtn {
     background: none;
     border: none;
     border-radius: 0.2vw;
     cursor: pointer;
+    color: wheat;
+    font-size: 1.8vw;
+}
+#youtubesrchbtn:hover{
+    color: lightpink;
 }
 #youtubesrchform {
     margin-top: 1vw;
 }
 #youtubesrchinpt {
     border-radius: 1.5vw;
-    border: 0.2vw solid #FF0000;
+    border: 0.15vw solid #FF0000;
     background-color: wheat;
+    outline: none;
+}
+#youtubesrchinpt:hover {
+    border: 0.15vw solid wheat;
+    background-color: cadetblue;
+    color: wheat;
 }
 #stopwatch {
     font-size: 2vw;
     font-family: 'bahnschrift';
     cursor: pointer;
     text-align: center;
+    color: wheat;
+}
+#stopwatch:hover{
+    color: lightpink;
 }
 #stopwatchstartbtn {
     border: none;
@@ -150,6 +176,7 @@ h3:hover {
     margin-right: 0;
     text-align: center;
     font-size: 1vw;
+    outline: none;
 }
 .timersetinput::-webkit-outer-spin-button,
 .timersetinput::-webkit-inner-spin-button {
@@ -185,6 +212,7 @@ h3:hover {
 #todoinput {
     border-radius: 1vw;
     border: none;
+    outline: none;
     background-color: wheat;
 }
 #addtodobtn {
@@ -200,6 +228,6 @@ h3:hover {
 }
 #todoinput:hover {
     background-color: cadetblue;
-    border: 10% solid wheat;
+    border: 0.1vw solid wheat;
     color: wheat;
 }
