@@ -5,7 +5,6 @@ body {
 }
 h1 {
     font-size: 5vw;
-    font-family: 'Noto Sans KR';
 }
 .center {
     text-align: center;
@@ -120,7 +119,6 @@ h3:hover {
     font-family: 'bahnschrift';
     cursor: pointer;
     text-align: center;
-    color: wheat;
 }
 #stopwatch:hover{
     color: lightpink;

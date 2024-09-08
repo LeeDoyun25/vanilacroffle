@@ -18,6 +18,9 @@ const timermininput=document.getElementById('timermininput');
 const timerinputdiv=document.getElementById('timerinputdiv');
 const seatmakerbtn=document.getElementById('seatmakerbtn');
 const OKAYSOUND=new Audio('okaysound.mp3');
+const OCLOCKBELL=new Audio('oclockbell.mp3');
+const TWELVEBELL=new Audio('twelvebell.mp3');
+const NEWDAYBELL=new Audio('newdaybell.mp3');
 const copyIcon5=`<svg xmlns="http://www.w3.org/2000/svg" width="0.5vw" height="0.5vw" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
 </svg>`;
@@ -43,6 +46,15 @@ function displayCurrentTime(){
     const day=current.getDay();
     clock.innerText=`${hour.toString().padStart(2,'0')}:${minute.toString().padStart(2,'0')}:${second.toString().padStart(2,'0')}`;
     datedisplayer.innerText=`${year}.${month}.${date} (${daylist[day]})`;
+    if (second===0&&minute===0){
+        if (hour===12){
+            TWELVEBELL.play();
+        } else if (hour===0){
+            NEWDAYBELL.play();
+        } else{
+            OCLOCKBELL.play();
+        };
+    };
 };
 function copytime(){
     navigator.clipboard.writeText(clock.innerText);
